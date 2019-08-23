@@ -1,0 +1,19 @@
+{
+  "name": "cypress-challenge-repo",
+  "version": "1.0.0",
+  "description": "Starter for Kustomer Test Engineer Challenge",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomer/cypress-challenge-repo.git"
+  },
+  "homepage": "https://github.com/kustomer/cypress-challenge-repo#readme",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  }
+}
