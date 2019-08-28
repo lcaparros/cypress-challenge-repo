@@ -1,5 +1,7 @@
 # Kustomer Test Engineer Code Challenge
 
+This repo is a starter kit for the Kustomer Test Engineer code challenge.  Before your interview please follow the instructions below to download and set up a cypress project.  There is no need to write any additional code prior to the interview.
+
 ### Prerequisites
 
 - Git installed on your system
