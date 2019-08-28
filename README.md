@@ -23,6 +23,9 @@ If everything is working correctly you should see a message like
     All specs passed!                           00:04        1        1        -        -        -  
 ```
 
+4. Once you see the above message, you are ready for the interview!
+
+
 ### Resources
 
 - [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell)
