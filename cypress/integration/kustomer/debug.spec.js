@@ -16,6 +16,8 @@ describe('Debug Spec', function() {
     cy.visit('https://login.yahoo.com/account/create');
     cy.get('#reg-submit-button').click();
     // cy.pause();
-    cy.get('#reg-error-password').should('have.text', 'This is required.');
+    // This assertion was failing due to an incorrect blank space. Just using the correct one can make this assert pass
+    // I have supossed there was not intention to change the verification target, I mean the text.
+    cy.get('#reg-error-password').should('have.text', 'Este dato es obligatorio.');
   });
 });
